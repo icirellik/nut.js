@@ -7,8 +7,8 @@
   "scripts": {
     "clean": "rimraf dist",
     "compile": "pnpm run clean && tsc -p .",
-    "publish:next": "pnpm publish --tag next --no-git-checks",
-    "publish:release": "pnpm publish --no-git-checks",
+    "publish:next": "pnpm publish --access public --tag next --no-git-checks",
+    "publish:release": "pnpm publish --access public --no-git-checks",
     "prepublishOnly": "pnpm run compile",
     "typedoc": "typedoc --out docs"
   },
