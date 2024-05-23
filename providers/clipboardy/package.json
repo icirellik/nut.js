@@ -32,8 +32,5 @@
   "devDependencies": {
     "@nut-tree/provider-interfaces": "workspace:*",
     "@nut-tree/configs": "workspace:*"
-  },
-  "peerDependencies": {
-    "@nut-tree/nut-js": "^3"
   }
 }

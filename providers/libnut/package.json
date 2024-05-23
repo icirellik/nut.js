@@ -42,16 +42,13 @@
     "node": ">=10.15.3"
   },
   "dependencies": {
-    "@nut-tree/libnut-darwin": "2.7.1",
-    "@nut-tree/libnut-linux": "2.7.1",
-    "@nut-tree/libnut-win32": "2.7.1"
+    "@potatoranch/libnut-darwin": "2.7.1",
+    "@potatoranch/libnut-linux": "2.7.1",
+    "@potatoranch/libnut-win32": "2.7.1"
   },
   "devDependencies": {
     "@nut-tree/configs": "workspace:*",
     "@nut-tree/shared": "workspace:*",
     "@nut-tree/provider-interfaces": "workspace:*"
-  },
-  "peerDependencies": {
-    "@nut-tree/nut-js": "^3"
   }
 }
