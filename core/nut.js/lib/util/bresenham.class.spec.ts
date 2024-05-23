@@ -1,4 +1,4 @@
-import { Point } from "@nut-tree/shared";
+import { Point } from "@potatoranch/shared";
 import { Bresenham } from "./bresenham.class";
 
 describe("Bresenham", () => {

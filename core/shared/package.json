@@ -1,5 +1,5 @@
 {
-  "name": "@nut-tree/shared",
+  "name": "@potatoranch/shared",
   "version": "4.2.0",
   "description": "Shared objects, data types and functions for @nut-tree/nut-js",
   "main": "dist/index",
@@ -20,7 +20,7 @@
     "jimp": "0.22.10"
   },
   "devDependencies": {
-    "@nut-tree/configs": "workspace:*"
+    "@potatoranch/configs": "workspace:*"
   },
   "keywords": [
     "nut-js"

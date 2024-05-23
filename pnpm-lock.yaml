@@ -49,16 +49,16 @@ importers:
 
   core/nut.js:
     dependencies:
-      '@nut-tree/default-clipboard-provider':
+      '@potatoranch/default-clipboard-provider':
         specifier: workspace:*
         version: link:../../providers/clipboardy
-      '@nut-tree/libnut':
+      '@potatoranch/libnut':
         specifier: workspace:*
         version: link:../../providers/libnut
-      '@nut-tree/provider-interfaces':
+      '@potatoranch/provider-interfaces':
         specifier: workspace:*
         version: link:../provider-interfaces
-      '@nut-tree/shared':
+      '@potatoranch/shared':
         specifier: workspace:*
         version: link:../shared
       jimp:
@@ -68,17 +68,17 @@ importers:
         specifier: 3.1.1
         version: 3.1.1
     devDependencies:
-      '@nut-tree/configs':
+      '@potatoranch/configs':
         specifier: workspace:*
         version: link:../configs
 
   core/provider-interfaces:
     dependencies:
-      '@nut-tree/shared':
+      '@potatoranch/shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:
-      '@nut-tree/configs':
+      '@potatoranch/configs':
         specifier: workspace:*
         version: link:../configs
 
@@ -91,18 +91,18 @@ importers:
         specifier: 3.1.1
         version: 3.1.1
     devDependencies:
-      '@nut-tree/configs':
+      '@potatoranch/configs':
         specifier: workspace:*
         version: link:../configs
 
   e2e/window-test:
     devDependencies:
-      '@nut-tree/nut-js':
-        specifier: workspace:*
-        version: link:../../core/nut.js
       '@playwright/test':
         specifier: 1.41.2
         version: 1.41.2
+      '@potatoranch/nut-js':
+        specifier: workspace:*
+        version: link:../../core/nut.js
       electron:
         specifier: 28.0.0
         version: 28.0.0
@@ -122,10 +122,10 @@ importers:
         specifier: 2.3.0
         version: 2.3.0
     devDependencies:
-      '@nut-tree/configs':
+      '@potatoranch/configs':
         specifier: workspace:*
         version: link:../../core/configs
-      '@nut-tree/provider-interfaces':
+      '@potatoranch/provider-interfaces':
         specifier: workspace:*
         version: link:../../core/provider-interfaces
 
@@ -141,13 +141,13 @@ importers:
         specifier: 2.7.1
         version: 2.7.1
     devDependencies:
-      '@nut-tree/configs':
+      '@potatoranch/configs':
         specifier: workspace:*
         version: link:../../core/configs
-      '@nut-tree/provider-interfaces':
+      '@potatoranch/provider-interfaces':
         specifier: workspace:*
         version: link:../../core/provider-interfaces
-      '@nut-tree/shared':
+      '@potatoranch/shared':
         specifier: workspace:*
         version: link:../../core/shared
 

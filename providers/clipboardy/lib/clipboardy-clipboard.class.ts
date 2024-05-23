@@ -1,5 +1,5 @@
 import clipboardy from "clipboardy";
-import {ClipboardProviderInterface} from "@nut-tree/provider-interfaces";
+import {ClipboardProviderInterface} from "@potatoranch/provider-interfaces";
 
 export default class implements ClipboardProviderInterface {
     constructor() {

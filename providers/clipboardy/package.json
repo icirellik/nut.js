@@ -1,5 +1,5 @@
 {
-  "name": "@nut-tree/default-clipboard-provider",
+  "name": "@potatoranch/default-clipboard-provider",
   "version": "4.2.0",
   "description": "The @nut-tree/nut-js default clipboard provider based on clipboardy",
   "main": "dist/index",
@@ -30,7 +30,7 @@
     "clipboardy": "2.3.0"
   },
   "devDependencies": {
-    "@nut-tree/provider-interfaces": "workspace:*",
-    "@nut-tree/configs": "workspace:*"
+    "@potatoranch/provider-interfaces": "workspace:*",
+    "@potatoranch/configs": "workspace:*"
   }
 }

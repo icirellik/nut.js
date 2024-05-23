@@ -1,6 +1,6 @@
 import Jimp from "jimp";
-import { Image, imageToJimp, Point, RGBA } from "@nut-tree/shared";
-import { ImageProcessor } from "@nut-tree/provider-interfaces";
+import { Image, imageToJimp, Point, RGBA } from "@potatoranch/shared";
+import { ImageProcessor } from "@potatoranch/provider-interfaces";
 
 export default class implements ImageProcessor {
   async colorAt(

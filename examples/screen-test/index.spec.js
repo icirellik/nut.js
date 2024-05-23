@@ -1,7 +1,7 @@
 "use strict";
 
-const { screen, Region, imageResource } = require("@nut-tree/nut-js");
-require("@nut-tree/nl-matcher");
+const { screen, Region, imageResource } = require("@potatoranch/nut-js");
+require("@potatoranch/nl-matcher");
 
 describe("Screen test", () => {
   describe("dimensions", () => {
